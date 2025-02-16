@@ -1,0 +1,16 @@
+{
+  "name": "codx-prettier-recipe",
+  "version": "1.0.0",
+  "description": "Codx recipe to quickly install and configure Prettier in your project",
+  "keywords": [
+    "codx",
+    "recipe",
+    "prettier"
+  ],
+  "author": {
+    "name": "marmotz",
+    "email": "contact@marmotz.dev",
+    "url": "https://www.marmotz.dev"
+  },
+  "license": "MIT"
+}

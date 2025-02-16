@@ -1,0 +1,8 @@
+recipe:
+  - addPackages:
+      devDependencies:
+        - name: prettier
+          exact: true
+  - copyFiles:
+      - from: assets/prettierignore
+        to: .prettierignore
