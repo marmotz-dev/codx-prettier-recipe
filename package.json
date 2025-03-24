@@ -1,10 +1,9 @@
 {
   "name": "codx-prettier-recipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Codx recipe to quickly install and configure Prettier in your project",
   "keywords": [
-    "codx",
-    "recipe",
+    "codx-recipe",
     "prettier"
   ],
   "author": {
