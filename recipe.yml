@@ -1,8 +1,17 @@
-recipe:
-  - addPackages:
-      devDependencies:
-        - name: prettier
-          exact: true
-  - copyFiles:
-      - from: assets/prettierignore
-        to: .prettierignore
+description: "Set up Prettier on your project"
+author: "Codx"
+
+steps:
+  - name: "Install Prettier"
+    action:
+      type: package
+      operation: install
+      packages:
+        - prettier
+        
+  - name: "Configure Prettier"
+    action:
+      type: fileSystem
+      operation: copy
+      source: "{$RECIPE_DIRECTORY}/skeleton/prettierignore"
+      destination: .prettierignore
